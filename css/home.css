@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+.main-slider, .parallax-fullwidth{width:100%;height:100%;position:relative;display:table;}
+.event-box{display:table-cell;vertical-align:middle;margin-left:50px;}
+.event-date{background:rgba(238, 22, 58, 0.9);}
+.title-box{background:rgba(0, 0, 0, 0.7);}
+.panel-relative{position:relative;}
+.event-pretitle{font-size:40px;line-height:50px;}
+.headmid-pd{padding-top:20px;padding-bottom:20px;}
+.pi-counter-number{font-size:24px;}
+@media (max-width:1199px){.headmid-pd{padding-top:20px;padding-bottom:20px;}
+}
+@media (max-width:600px){.event-pretitle{font-size:30px;line-height:30px}
+}
+@media (max-width:359px){.headmid-pd{padding-top:10px;padding-bottom:10px;}
+.event-pretitle{font-size:16px;line-height:17px}
+}
+.form-box{background:rgba(0, 0, 0, 0.9);width:100%;position:absolute;bottom:0;z-index:999;color:#fff;}
+.head-bg{width:100%;height:75%;background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,.5)),url(../img/banner-cooking.jpg) no-repeat rgba(0, 0, 0, 0.8);background-size:cover; }
+
+
+
+
+.form-box{background:rgba(0, 0, 0, 0.7);width:100%;position:absolute;bottom:0;z-index:999;color:#000;
+  border-bottom-color: #ccc;
+  border-bottom-color: rgba(0, 0, 0, 0.6);
+    border-top-color: solid 2px #ccc;
+  border-top-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);}
+.line-icon{font-size:50px;padding:10px;}
+@media (max-width:991px){.form-box{font-size:14px;}
+.line-icon{font-size:28px;}
+}
+@media (max-width:767px){.form-box{font-size:18px;}
+.line-icon{font-size:50px;padding:10px;}
+}
+@media (max-width:480px){.form-box{font-size:14px;line-height:16px;}
+.line-icon{font-size:30px;padding:10px;}
+}
+
+.bg-sec{
+   width:100%;height:auto;background:url(../img/bg-1.png) no-repeat rgba(0, 0, 0, 0.8);background-size:cover; 
+}
+
+well-green{
+    background-color: 
+}
+
+.circular-image{
+    border-radius: 50%;
+}
+
+.text-bg{
+    background-color: #5f7ba8;
+    color: white;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.text-bg:hover{
+    background-color: white;
+    color: #5f7ba8;
+    border: solid 1px #5f7ba8;
+}
+
+.contact{
+ width:100%;height:auto;background:url(../img/contact.jpg) no-repeat rgba(0, 0, 0, 0.8);background-size:cover; 
+}
+
+.main-head{
+ width:100%;height:24%;background:url(../img/contact.jpg) no-repeat rgba(0, 0, 0, 0.8);background-size:cover; 
+}
+
+.welcome-text{
+    font-family: 'Lobster',cursive;
+    font-size: 55px;
+    line-height: 50px;
+}
+
+.cafe-name{
+    font-family: 'Bree Serif', serif;
+    font-size: 75px;
+    line-height: 80px;
+}
+
+.mbtn {
+  position: relative;
+
+  display: block;
+  margin: 30px auto;
+  padding: 0;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  
+  background-color: #2ecc71;
+  color: #ecf0f1;
+  
+  transition: background-color .3s;
+}
+
+.mbtn:hover, .mbtn:focus {
+  background-color: #27ae60;
+}
+
+.mbtn > * {
+  position: relative;
+}
+
+.mbtn span {
+  display: block;
+  padding: 12px 24px;
+}
+
+.mbtn:before {
+  content: "";
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  display: block;
+  width: 0;
+  padding-top: 0;
+    
+  border-radius: 100%;
+  
+  background-color: rgba(236, 240, 241, .3);
+  
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mbtn:active:before {
+  width: 120%;
+  padding-top: 120%;
+  
+  transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+/* Styles, not important */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+.mbtn.orange {
+  background-color: #e67e22;
+}
+
+.mbtn.orange:hover, .mbtn.orange:focus {
+  background-color: #d35400;
+}
+
+.mbtn.red {
+  background-color: #e74c3c;
+}
+
+.mbtn.red:hover, .mbtn.red:focus {
+  background-color: #c0392b;
+}
+
+.food-item{
+  background: rgba(0,0,0,0);
+  -moz-transition: all 1s; 
+    -webkit-transition: all 1s;  
+    -ms-transition: all 1s;  
+    -o-transition: all 1s;  
+    transition: background-color 1s;
+    opacity:1;
+    position: relative;
+   
+}
+
+.food-item:hover {
+  background-color: rgba(255,0,0,.5);
+}
+.food-item:before {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-color: inherit;
+  content: ' ';
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.chef-item{
+  background: rgba(0,0,0,0);
+  -moz-transition: all 1s; 
+    -webkit-transition: all 1s;  
+    -ms-transition: all 1s;  
+    -o-transition: all 1s;  
+    transition: background-color 1s;
+    opacity:1;
+    position: relative;
+    border-right: solid 1px white;
+}
+
+.chef-item:hover {
+  background-color: rgba(0,0,0,.5);
+}
+.chef-item:before {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-color: inherit;
+  content: ' ';
+}
+
+.chef-text{
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    left: 20px;
+    top:30px;
+    background-color: firebrick;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+.text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  left: 100px;
+  top: 320px;
+}
+
+.h2-text{
+   font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    color: firebrick;
+}
+
+.h3-text{
+   font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    color: firebrick;
+}
+.break-bg{width:100%;height:50%;background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,.5)),url(../img/break-banner.jpg) no-repeat rgba(0, 0, 0, 0.8);background-size:cover; }
+.lunch-bg{width:100%;height:50%;background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,.5)),url(../img/lunch-banner.jpg) no-repeat rgba(0, 0, 0, 0.8);background-size:cover; }
+.dinner-bg{width:100%;height:50%;background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,.5)),url(../img/dinner-banner.jpg) no-repeat rgba(0, 0, 0, 0.8);background-size:cover; }
+.appetizers-bg{width:100%;height:50%;background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,.5)),url(../img/appetizers-banner.jpg) no-repeat rgba(0, 0, 0, 0.8);background-size:cover; }
+.drink-bg{width:100%;height:50%;background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,.5)),url(../img/drinks-banner.jpg) no-repeat rgba(0, 0, 0, 0.8);background-size:cover; }
+.dessert-bg{width:100%;height:50%;background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,.5)),url(../img/banner.jpg) no-repeat rgba(0, 0, 0, 0.8);background-size:cover; }
+
+.container {
+	margin-right:auto;
+	margin-left:auto;
+	padding-left:15px;
+	padding-right:15px
+}
+.footer-wrap a {
+	color: #acc8e4 !important;
+}
+.footer-wrap a:hover {
+	color: #6594be !important;
+}
+}
+a:hover, a:focus {
+	text-decoration:underline;
+}
