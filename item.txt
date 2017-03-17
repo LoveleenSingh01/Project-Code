@@ -1,0 +1,15 @@
+One
+12.99
+0
+Two
+10
+1
+Four
+10
+30
+Five
+100
+10
+Sandwich
+45
+81
